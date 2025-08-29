@@ -92,13 +92,17 @@ hr {
     width: 70%;
     margin: 0 auto;
 }
-.card__about {
+.about_arrow {
     display: flex;
     flex-direction: column;
     background-color: #fff;
     border-radius: 15px;
     width: 70%;
     background-color: #f2f2f2;
+    cursor: pointer;
+}
+.card__about {
+    display: flex;
 }
 .arrow__right {
     color: #ff0000;
@@ -111,6 +115,9 @@ hr {
 .text__about {
     text-align: center;
     font-size: clamp(16px, 0.833vw, 100px);
+    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
 }
 .text__about_opacity {
     display: none;
@@ -135,7 +142,6 @@ hr {
     margin-top: 1rem;
     width: 70px;
     height: 70px;
-    background-color: #ff0000;
     border-radius: 25px;
     padding: 10px;
 }
@@ -144,14 +150,22 @@ hr {
     width: 100%;
     height: 100%;
     object-fit: contain;
-
-    cursor: pointer;
 }
-.img__about_item:hover {
+.card__about:nth-child(3) .img__about_item {
+    width: 110%;
+    height: 110%;
+    transform: scale(1.1);
+}
+.card__about:nth-child(8) .img__about_item {
+    width: 110%;
+    height: 110%;
+    transform: scale(1.1);
+}
+.card__about:hover .about-item-container{
     transform: scale(1.1);
     transition: 0.3s;
 }
-.about-item-container:hover .text__about_opacity {
+.card__about:hover .text__about_opacity {
   display: block;
 }
 .img__item {
