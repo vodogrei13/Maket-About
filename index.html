@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
     <meta property="og:title" content="О компании">
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
@@ -148,7 +149,24 @@
               
           </div>
         </div>
+
         <hr>
+
+        <div class="block__social">
+          <div class="block_slider">
+              <div class="slider">
+                  <div class="slider__images"></div>  
+              </div>
+              <div class="block-point"></div>
+          </div>
+          <div class="youtube">
+            <img src="logos_youtube.svg" alt="Youtube">
+            <a href="https://www.youtube.com/watch?v=bpz1gybCZKU" data-fancybox class="youtube__btn">Смотреть про компанию</a>
+          </div>
+        </div>
+
+        <hr>
+
         <div class="block__delivery">
           <h2 class="delivery__title">Мы осуществляем доставку по:</h2>
 
@@ -185,6 +203,12 @@
           </div>
         </div>
         <hr>
+
+        <div class="center__text_container">
+          <p class="text__main_center">За эти годы Мы сформировали сильную команду. В настоящее время в компании работает более 120 талантливых специалистов. Благодаря обучению и курсам повышения квалификации наши сотрудники знают обо всех секретах мебельных элементов и имеют уникальный опыт.</p>
+          <br/><p class="text__main_center">День за днем компания FdM держит курс на развитие и достигает новых высот. Мы рады единомышленникам и открыты к свежим идеям и взглядам, а также заинтересованы в карьерном росте каждого сотрудника.</p>
+        </div>
+
         <div class="block__scheme">
           <h2 class="scheme__title">Схема работы</h2>
           <div class="cards__scheme">
@@ -231,11 +255,59 @@
           </div>
         </div>
 
+      
+        <div class="details">
+          <h2 class="details__main_title">Реквизиты</h2>
+
+          <div class="details__info">
+            <h3 class="details__title">ООО «ФДМ»</h3>
+            <p class="details__text">Адрес: г. Ярославль, Ленинградский пр-т, д. 33, офис 610</p>
+            <p class="details__text">ИНН: 5012093915  ОГРН: 1175053003685</p>
+            <p class="details__text">Режим работы: понедельник - пятница, 8:00-17:00</p>
+          </div>
+
+          <div class="contact">
+            <h3 class="details__title">Контакты</h3>
+            <p class="contact__item"><img src="tel.png" alt="телефон" class="contact__img"> <a href="tel:+78005508945" class="contact__link">8 800 550 8 945</a></p>
+            <p class="contact__item"><img src="email.png" alt="почта" class="contact__img"> <a href="mailto:sales@fdm76.ru&body=Будем рады вам ответить!" class="contact__link">sales@fdm76.ru</a></p>
+          </div>
+
+          <div class="branches">
+            <h3 class="details__title">Филиалы</h3>
+            <ul class="branches__list">
+              <li class="branches___list_item">
+                Ярославль, пр-т Ленинградский, д. 33, ТЦ "Омега" офис 216, 
+                <br/><a href="tel:+78005508945" class="contact__link">8 800 550-8-945</a></li>
+              <li class="branches___list_item">
+                Вологда, ул. Ленинградская 128, 
+                <br/><a href="tel:+79201060711" class="contact__link">8 920 106-0-711</a></li>
+              <li class="branches___list_item">
+                Кострома 2-я Волжская ул., 2В офис 5, 
+                <br/><a href="tel:+78005508945" class="contact__link">8 800 550-8-945</a> (доб. 90)</li>
+              <li class="branches___list_item">
+                Череповец, ул. Гоголя 47, 1-й этаж 
+                <br/><a href="tel:+79201428323" class="contact__link">8 920 142-8-323</a></li>
+              <li class="branches___list_item">
+                Рыбинск, ул. Ломоносова 35, офис 23, 2-й этаж, 
+                <br/><a href="tel:+79201492395" class="contact__link">8 920 149-2-395</a></li>
+              <li class="branches___list_item">
+                Владимир ул Куйбышева 16А офис 1, 
+                <br/><a href="tel:+79201103500" class="contact__link">8 920 110-3-500</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="form">
+            <h3 class="form__title">Если любишь преодолевать сложности, горишь желанием работать и развиваться?</h3>
+            <a href="services_about.pdf" class="hero__btn_present" class="form__btn">Заполняй анкету и приходи к нам!</a>
+          </div>
       </section>
 
       <div>
         <img src="footer.png" alt="footer" class="footer">
       </div>
     </section>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
