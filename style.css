@@ -195,7 +195,7 @@ hr {
 }
 .cards__delivery {
     display: flex;
-    width: 70%;
+    width: 75%;
     margin: 0 auto;
     gap: 2rem;
 }
