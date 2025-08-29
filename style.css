@@ -182,6 +182,9 @@ hr {
     transform: scale(1.1);
     transition: 0.3s;
 }
+.img_vologda {
+    margin-bottom: 17px;
+}
 .block__delivery {
     margin-bottom: 1rem;
 }
@@ -202,14 +205,10 @@ hr {
 .card__delivery {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    gap: 1rem;
-    /* background-color: #fff; */
+    gap: 1.5rem;
     border-radius: 15px;
-    /* border: 1px solid #b80000; */
     width: 18%;
     height: auto;
-    /* background-color: #f2f2f2; */
     overflow: hidden;
 }
 .card__delivery_fura {
@@ -227,6 +226,9 @@ hr {
     overflow: hidden;
 }
 .text__delivery {
+    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: 1.2rem;
     text-align: center;
     font-size: clamp(16px, 0.933vw, 100px);
 }
