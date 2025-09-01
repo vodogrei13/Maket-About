@@ -484,7 +484,6 @@ hr {
 .youtube__btn {
     display: inline-block;
     padding: 12px 5px;
-    background: #E11F1D;
     color: white;
     text-decoration: none;
     border-radius: 8px;
@@ -495,8 +494,7 @@ hr {
 }
 
 .youtube__btn:hover {
-    background: #b80000;
-    transform: translateY(-2px);
+    transform: scale(1.03);
 }
 
 /* Стили для VK блока */
@@ -512,18 +510,17 @@ hr {
 .vk__btn {
     display: inline-block;
     padding: 12px 5px;
-    background: #627aad;
     color: white;
     text-decoration: none;
     border-radius: 8px;
     font-weight: 600;
     transition: background 0.3s ease;
-    width: 228px;
+    width: 215px;
     text-align: center;
 }
+
 .vk__btn:hover {
-    background: #3b5998;
-    transform: translateY(-2px);
+    transform: scale(1.03);
 }
 .social__container {
     display: flex;
@@ -543,7 +540,7 @@ hr {
     height: 36px;
 }
 .vk__img {
-    width: 220px;
+    width: 215px;
     height: 45px;
 }
 .form {
